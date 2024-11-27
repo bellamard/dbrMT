@@ -1,0 +1,117 @@
+import {StyleSheet, Dimensions} from 'react-native';
+const {width, height} = Dimensions.get('window');
+const Styles = StyleSheet.create({
+  container: {
+    paddingTop: 5,
+    width: width,
+    height: height,
+    flex: 1,
+    backgroundColor: '#519',
+  },
+  boxUser: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  userLogos: {
+    width: 50,
+    height: 50,
+    borderRadius: 30,
+    borderWidth: 1,
+    borderColor: '#99F',
+    marginHorizontal: 5,
+  },
+  userName: {
+    color: '#99f',
+    fontWeight: 'bold',
+    fontSize: 18,
+  },
+  userPhone: {
+    color: '#99f',
+    fontSize: 16,
+  },
+  layout: {
+    flex: 1,
+    marginTop: 10,
+    borderWidth: 1,
+    borderColor: 'blue',
+    backgroundColor: '#fff',
+    padding: 20,
+    borderTopEndRadius: 25,
+    borderTopStartRadius: 25,
+  },
+  layoutSold: {
+    paddingVertical: 20,
+    borderBottomWidth: 1,
+    borderColor: '#519',
+    alignItems: 'center',
+  },
+  boxSold: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    width: '100%',
+  },
+  boxOperation: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    flexWrap: 'wrap',
+    width: '100%',
+  },
+  devise: {
+    width: 70,
+    height: 70,
+    justifyContent: 'center',
+    textAlign: 'center',
+    borderWidth: 1,
+    padding: 20,
+    borderRadius: 35,
+    marginVertical: 2.5,
+    borderColor: '#519',
+  },
+  deviseTitle: {
+    color: '#519',
+    fontWeight: 'bold',
+  },
+  soldeInfos: {
+    width: 150,
+    height: 150,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 40,
+    borderRadius: 100,
+    borderWidth: 1,
+    borderColor: '#519',
+  },
+  soldeTitle: {
+    fontSize: 20,
+    color: '#519',
+    fontWeight: 'bold',
+    borderBottomWidth: 1,
+    borderColor: '#519',
+    marginBottom: 20,
+  },
+  operation: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 5,
+    width: 100,
+    height: 100,
+    padding: 10,
+    borderWidth: 0.4,
+    borderColor: '#519',
+    borderRadius: 10,
+  },
+  itemOperation: {
+    width: 40,
+    height: 40,
+  },
+  network: {
+    width: 80,
+    height: 80,
+  },
+  boxnetwork: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
+export default Styles;
